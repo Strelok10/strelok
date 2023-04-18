@@ -6,6 +6,6 @@ import android.os.Bundle
 class MainActivity22 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main22)
+        setContentView(R.layout._6_score)
     }
 }
