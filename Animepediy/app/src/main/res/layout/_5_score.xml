@@ -6,15 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity21">
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="назад"
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:text=" 5 Место"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="377dp"
+        android:layout_height="362dp"
+        android:text="Жизнь Наруто – это история о борьбе за признание. С детства его сторонились из-за Хвостатого, заключенного в нем. Позднее Наруто доказал, что он не монстр, добился расположения жителей Конохи и смог стать Хокаге. Сначала у Узумаки прослеживается бунтарский характер: он буйный, шумный и импульсивный. Со временем это сглаживается. Наруто становится проницательным, он хорошо понимает людей и открывает в себе дар убеждения."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="94dp"
+        android:layout_height="33dp"
+        android:text="  Наруто"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Видео"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="686dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

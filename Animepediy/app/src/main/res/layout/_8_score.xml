@@ -6,15 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity24">
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="назад"
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:text="8 Место"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="377dp"
+        android:layout_height="362dp"
+        android:text="Наруто сразу признал в Саске родственную душу и пытался вернуть его в селение, даже когда тот откровенно демонстрировал равнодушие. На личности Учихи глубокий след оставила трагедия, произошедшая с его кланом. В ней Саске обвинил Итачи и поклялся отомстить брату. В ненависти Учиха находил мотивацию для оттачивания навыков, позднее присоединился для этого к Орочимару. В конце благодаря Наруто Саске избавился от ненависти и решил посвятить себя защите жителей Конохи."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="72dp"
+        android:layout_height="32dp"
+        android:text=" Саске"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Видео"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="686dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

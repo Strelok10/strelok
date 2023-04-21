@@ -6,15 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity23">
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="назад"
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:text=" 7 Место"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="377dp"
+        android:layout_height="362dp"
+        android:text="Кагуя – член клана небесных существ Ооцуцуки. Она относится к паразитическому виду, который достигает божественности путем поглощения жизненной энергии миров. Однако Кагуя не исполнила свою задачу: она привязалась к планете. Богиня использовала плод Древа и бесконечное Цукуеми для прекращения войн во всем мире. Это далось не без жертв, поэтому Кагуя получила неоднозначную репутацию."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="108dp"
+        android:layout_height="31dp"
+        android:text="Хаширама"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Видео"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="686dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

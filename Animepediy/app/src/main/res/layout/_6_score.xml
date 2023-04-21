@@ -6,15 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity22">
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="назад"
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:text=" 6 Место"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="377dp"
+        android:layout_height="362dp"
+        android:text="Обито – бывший друг Какаши Хатаке. Учиху в течение долгого времени считали погибшим. Однако его спас Мадара, который позднее тренировал его и передал свою идеологию. Обито взял под контроль организацию Акацуки, но прятал лицо, оставался в тени и притворялся глупым неудачником. Учиха развязал Четвертую Мировую Войну Шиноби, но позднее раскаялся в своих поступках и пожертвовал собой, чтобы спасти мир. "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="79dp"
+        android:layout_height="29dp"
+        android:text="  Обито"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Видео"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="686dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

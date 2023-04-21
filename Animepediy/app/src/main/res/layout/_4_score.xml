@@ -6,15 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity20">
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="назад"
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:text=" 4 Место"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="377dp"
+        android:layout_height="362dp"
+        android:text="Мадара – член клана Учиха, друг и соперник Хаширамы. На него сильно повлияла смерть Изуны. После нее Мадара поддался Проклятию Ненависти. Он попытался остановить вражду, основав Коноху совместно с Сенджу. Это не увенчалось успехом, поэтому Мадара перешел к отшельническому образу жизни, продолжил разрабатывать свои собственные планы и плести интриги."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="94dp"
+        android:layout_height="33dp"
+        android:text="  Мадара"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Видео"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="686dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

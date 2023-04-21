@@ -6,15 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity25">
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="назад"
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:text=" 9 Место"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="377dp"
+        android:layout_height="362dp"
+        android:text="Индра – сын Хагоромо, брат Асуры и родоначальник клана Учиха. С детства его считали гением. Изначально Индра был скромным и прилежным ребенком, но после вмешательства Черного Зецу возгордился собой и начал отдаляться от окружающих. Он тяжело перенес новость о том, что его отец выбрал в качестве наследника Асуру. Сначала Индра держал свой гнев под контролем, но со временем возненавидел и брата, и Хагоромо настолько, что поклялся уничтожить их наследие в будущих жизнях."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="79dp"
+        android:layout_height="33dp"
+        android:text=" Индра"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Видео"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="686dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
