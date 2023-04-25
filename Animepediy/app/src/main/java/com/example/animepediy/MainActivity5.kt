@@ -15,5 +15,35 @@ class MainActivity5 : AppCompatActivity() {
             val intent = Intent(this, MainActivity4::class.java)
             startActivity(intent)
         }
+        var btn1: Button
+        btn1=findViewById(R.id.button12)
+        btn1.setOnClickListener{
+            val intent = Intent(this, MainActivity22::class.java)
+            startActivity(intent)
+        }
+        var btn2: Button
+        btn2=findViewById(R.id.button13)
+        btn2.setOnClickListener{
+            val intent = Intent(this, MainActivity23::class.java)
+            startActivity(intent)
+        }
+        var btn3: Button
+        btn3=findViewById(R.id.button14)
+        btn3.setOnClickListener{
+            val intent = Intent(this, MainActivity24::class.java)
+            startActivity(intent)
+        }
+        var btn4: Button
+        btn4=findViewById(R.id.button15)
+        btn4.setOnClickListener{
+            val intent = Intent(this, MainActivity25::class.java)
+            startActivity(intent)
+        }
+        var btn5: Button
+        btn5=findViewById(R.id.button16)
+        btn5.setOnClickListener{
+            val intent = Intent(this, MainActivity26::class.java)
+            startActivity(intent)
+        }
     }
 }
