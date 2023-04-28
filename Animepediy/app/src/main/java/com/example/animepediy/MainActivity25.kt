@@ -10,13 +10,13 @@ class MainActivity25 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout._9_score)
         var btn: Button
-        btn=findViewById(R.id.button34)
+        btn=findViewById(R.id.button33)
         btn.setOnClickListener {
             val intent = Intent(this, MainActivity5::class.java)
             startActivity(intent)
         }
         var btn1: Button
-        btn1=findViewById(R.id.button35)
+        btn1=findViewById(R.id.button34)
         btn1.setOnClickListener {
             val intent = Intent(this, _99_score::class.java)
             startActivity(intent)

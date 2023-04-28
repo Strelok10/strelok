@@ -79,7 +79,8 @@
         android:text="10 место"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toEndOf="@+id/button15"
         app:layout_constraintTop_toBottomOf="@+id/button13"
-        app:layout_constraintVertical_bias="0.292" />
+        app:layout_constraintVertical_bias="0.291" />
 </androidx.constraintlayout.widget.ConstraintLayout>

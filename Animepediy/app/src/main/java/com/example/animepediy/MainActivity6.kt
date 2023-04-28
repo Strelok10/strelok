@@ -1,7 +1,6 @@
 package com.example.animepediy
 
 import android.content.Intent
-import android.os.Build.VERSION_CODES.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
