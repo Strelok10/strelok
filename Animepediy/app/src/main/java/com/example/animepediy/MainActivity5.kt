@@ -11,7 +11,7 @@ class MainActivity5 : AppCompatActivity() {
         setContentView(R.layout.activity_main5)
         var btn: Button
         btn=findViewById(R.id.button10)
-        btn.setOnClickListener{
+        btn.setOnClickListener {
             val intent = Intent(this, MainActivity4::class.java)
             startActivity(intent)
         }
@@ -22,20 +22,20 @@ class MainActivity5 : AppCompatActivity() {
             startActivity(intent)
         }
         var btn2: Button
-        btn2=findViewById(R.id.button13)
+        btn2=findViewById(R.id.button14)
         btn2.setOnClickListener{
             val intent = Intent(this, MainActivity23::class.java)
             startActivity(intent)
         }
         var btn3: Button
-        btn3=findViewById(R.id.button14)
+        btn3=findViewById(R.id.button13)
         btn3.setOnClickListener{
             val intent = Intent(this, MainActivity24::class.java)
             startActivity(intent)
         }
         var btn4: Button
         btn4=findViewById(R.id.button15)
-        btn4.setOnClickListener{
+        btn4.setOnClickListener {
             val intent = Intent(this, MainActivity25::class.java)
             startActivity(intent)
         }

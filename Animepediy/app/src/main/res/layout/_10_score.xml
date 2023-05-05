@@ -51,7 +51,6 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.005" />
@@ -73,12 +72,10 @@
         android:id="@+id/textView36"
         android:layout_width="74dp"
         android:layout_height="32dp"
-        android:layout_marginEnd="156dp"
         android:text=" Асура"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button36"
-        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.13" />
