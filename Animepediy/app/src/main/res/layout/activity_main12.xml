@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/tyui"
     tools:context=".MainActivity12">
 
     <TextView
@@ -29,4 +30,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="231dp"
+        android:layout_height="413dp"
+        android:text=" Иллюзия рая \n Великая небесная стена  \n  Спираль \n Добро пожаловать в класс превосходства 3 \n Мастер на все руки Сайто в другом мире \n Моя любовь 999 уровня к Ямаде \n Семья шпиона 2 \n Триган: Ураган \n Триган: Бегство \n Звёздное дитя \n Ложные выводы 2 \n Непризнанный школой владыка демонов 2 "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

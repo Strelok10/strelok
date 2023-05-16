@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/tyui"
     tools:context=".MainActivity4">
 
     <Button
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2 место"
         android:backgroundTint="#FB0000"
+        android:text="2 место"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,8 +22,8 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Топ персонажей"
         android:backgroundTint="#FB0000"
+        android:text="Топ персонажей"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -33,8 +34,8 @@
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
-        android:backgroundTint="#FB0000"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FB0000"
         android:text="1 место"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,8 +46,8 @@
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
-        android:backgroundTint="#FB0000"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FB0000"
         android:text="3 место"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
